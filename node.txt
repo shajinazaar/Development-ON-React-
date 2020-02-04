@@ -1,0 +1,19 @@
+-npm install -g live-server
+
+-liveserver public --port=8090
+
+-npm install babel-cli@6.24.1
+
+-npm install -g babel
+
+-npm init 
+
+-npm add babel-preset-react@6.24.1 babel-preset-env@1.5.2
+babel src/app.js --out-file=public/scripts/app.js --presets=env,react -watch
+
+\\To remove global dependencies
+
+-npm uninstall -g babel-cli liveserver
+
+
+-npm add liveserver babel-cli@6.24.1
